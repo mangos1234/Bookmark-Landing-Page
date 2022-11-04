@@ -1,0 +1,195 @@
+.heroBlock{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroBlock2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textAndBtns{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.heroContainer{
+    width: 50%;
+    .right, .left{
+        height: 24vw;
+    }
+}
+
+.textBox {
+    width: 50%;
+    margin: 9% 25%;
+}
+
+.fifty{
+    margin: 0;
+    padding: 5%;
+}
+
+.extensions{
+    flex-direction: row;
+}
+
+.extention {
+    margin: 2%;
+}
+
+.e2{
+    margin-top: 5%;
+}
+
+.e3{
+    margin-top: 8%;
+}
+
+#moreInfo {
+    width: 20%;
+    margin: 5% 40% 20% 40%;
+}
+
+#emailInput {
+    border: white 6px solid;
+}
+
+.inputandBtn{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 15%;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+
+    .inputAndError{
+        width: 64%;
+
+        input{
+            margin: 0;
+            padding: 3%0;
+        }
+    }
+    button{
+        width: 34%;
+        padding: 3% 0;
+        margin: 0;
+    }
+}
+
+.FAQS{
+    width: 50%;
+    margin: 0 25%;
+}
+
+.left{
+    text-align: left;
+}
+
+.selection{
+    flex-direction: row;
+    width: 80%;
+    margin: 10%;
+
+    hr{
+        width: 100%;
+    }
+}
+
+.selectionBlock{
+    width: 30%;
+}
+
+#lone{
+    display: none;
+}
+
+footer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+
+        li{
+            padding: 8%;
+        }
+    }
+
+    .media{
+        img{
+            margin: 20%;
+        }
+    }
+}
+
+.footerLeft{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+
+    img{
+        width: 30%;
+        height: 10%;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        height: 10%;
+        width: 20%;
+    }
+
+    .hamburger{
+        display: none;
+    }
+}
+
+.menu{
+    background-color: white;
+    display: flex;
+    position: static;
+    height: fit-content;
+    align-items: center;
+    width: 60%;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: none;
+        li{
+            color: black;
+            padding: 4%;
+        }
+        hr{
+            display: none;
+        }
+    }
+
+    .loginBtn{
+        background-color: hsl(0, 94%, 66%);
+        margin: 0;
+    }
+
+    .top{
+        padding: 0;
+    }
+
+    .logo, .media{
+        display: none;
+    }
+}
